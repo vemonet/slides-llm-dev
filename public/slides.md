@@ -1,4 +1,4 @@
-## LLM-assisted programming
+## LLM-assisted development
 
 *aka. AI coding or agentic engineering*
 
@@ -338,4 +338,3 @@ Enable/disable tools
 ---
 
 ## Thank you
-

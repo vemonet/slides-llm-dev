@@ -1,7 +1,7 @@
 {
-  "name": "slides-llm-programming",
+  "name": "slides-llm-dev",
   "version": "1.0.0",
-  "description": "SIB Vital-IT - LLM-assisted programming.",
+  "description": "SIB Vital-IT - LLM-assisted development.",
   "type": "module",
   "private": true,
   "license": "MIT",

@@ -1,11 +1,8 @@
-# 🧑‍🏫 Using Large Language Models for Biodata Exploration
+# LLM-assisted development
 
-[![Deploy to GitHub pages](https://github.com/sib-swiss/slides-llm-programming/actions/workflows/deploy.yml/badge.svg)](https://github.com/sib-swiss/slides-llm-programming/actions/workflows/deploy.yml)
+[![Deploy to GitHub pages](https://github.com/vemonet/slides-llm-dev/actions/workflows/deploy.yml/badge.svg)](https://github.com/vemonet/slides-llm-dev/actions/workflows/deploy.yml)
 
-Course description: https://www.sib.swiss/training/course/20250930_USLLM
-
-- [Theory slides (morning session) as PDF here](https://github.com/sib-swiss/slides-llm-programming/blob/main/public/2025-09-30-LLM_From_Theory_To_Practice.pdf)
-- Pratical slides: https://sib-swiss.github.io/slides-llm-programming
+[vemonet.github.io/slides-llm-dev](https://vemonet.github.io/slides-llm-dev)
 
 ## 🛠 Slides development
 
