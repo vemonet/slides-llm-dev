@@ -331,13 +331,15 @@ Pick a LLM depending on task
 
 ## Demo
 
+Enable/disable tools
+
 Make changes to a project in VSCode using GitHub copilot
 
 > Fix the errors in this page
 >
 > Rename the `db_names` param to `dbs` across the codebase and update all related docs
-
-Enable/disable tools
+>
+> Add molecular descriptor filtering
 
 <!-- https://github.com/sib-swiss/mol-search-sparql-service -->
 
