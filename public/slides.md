@@ -20,11 +20,12 @@
 
 > An LLM agent runs tools in a loop to achieve a goal
 
-In practice: adds context management (e.g. summarize when conversation too long), planning (think step by step, todo lists).
+In practice: 
 
-A typical tool that gives a lot of capabilities is to run a given bash command
-
-Coding agents often also have access to diagnostics from a language client or IDE
+- Generic tools like run a given bash command, and additional ones
+- Coding agents often also have access to diagnostics from a language client or IDE
+- Context management: summarize when conversation gets too long
+- Planning: think step by step, todo lists
 
 ---
 
@@ -44,7 +45,7 @@ Coding agents often also have access to diagnostics from a language client or ID
 
 ## Human-directed agentic engineering
 
-[Ladybird adopts Rust, with help from AI](https://ladybird.org/posts/adopting-rust)
+[Ladybird browser adopts Rust, with help from AI](https://ladybird.org/posts/adopting-rust)
 
 > I used Claude Code and Codex for the translation. **This was human-directed, not autonomous code generation**. I decided what to port, in what order, and what the Rust code should look like. It was **hundreds of small prompts**, steering the agents where things needed to go.
 >
@@ -52,7 +53,7 @@ Coding agents often also have access to diagnostics from a language client or ID
 
 ---
 
-## Blind AI trust is a security risk
+## Blind AI trust is a risk
 
 > I didn’t write a single line of code for @moltbook. I just had a vision for the technical architecture, and AI made it a reality
 
@@ -77,7 +78,7 @@ The [Supabase URL and API key were found](https://www.wiz.io/blog/exposed-moltbo
 
 #### Desktop UI
 
-- ✅ More freedom to build something really optimized for multiple agents
+- ✅ Freedom to build something more optimized for other tasks than code
 - ✅ Some people prefer having their agents running separately
 - 2 apps instead of 1
 - ⚠️ Just reinventing a lightweight IDE?
@@ -96,14 +97,15 @@ The [Supabase URL and API key were found](https://www.wiz.io/blog/exposed-moltbo
 
 ## Coding agents products
 
-- GitHub Copilot (in VSCode + CLI, free tier)
-- Claude Code (CLI, closed source TypeScript)
-- Codex CLI (OpenAI, open source rust)
-- Antigravity (Google, VSCode fork, free tier)
-- Cursor (VSCode fork)
-- OpenCode (open source TypeScript)
-- Kilo Code (open source TypeScript)
-- Goose (open source rust/TypeScript)
+| Agent                 | CLI  | Desktop<br />app | IDE  | Open<br />source | Free<br />tier | Tech        |
+| --------------------- | ---- | ---------------- | ---- | ---------------- | -------------- | ----------- |
+| Cursor                | ✅    |                  | ✅    |                  | ✅              | VSCode fork |
+| VSCode GitHub Copilot | ✅    |                  | ✅    | ☑️                | ✅              | VSCode      |
+| Claude Code           | ✅    | ✅                | ✅    |                  |                | TS          |
+| OpenAI Codex CLI      | ✅    | ✅                | ✅    | ☑️                |                | Rust        |
+| Antigravity           | ✅    |                  | ✅    |                  | ✅              | VSCode fork |
+| OpenCode              | ✅    |                  | ☑️    | ✅                |                | TS          |
+| Goose                 |      | ✅                |      | ✅                |                | Rust/TS     |
 
 ---
 
@@ -131,7 +133,11 @@ Multiple transports:
 - `stdio`: when running the server locally
 - `streamable-http`: when deploying it as a remote HTTP endpoint
 
-Find servers in various MCP registries, with an official registry system being developed: [registry.modelcontextprotocol.io](https://registry.modelcontextprotocol.io)
+> Find servers in various MCP registries
+>
+> Official registry: [registry.modelcontextprotocol.io](https://registry.modelcontextprotocol.io)
+>
+> GitHub registry for curated servers: [github.com/mcp](https://github.com/mcp)
 
 ----
 

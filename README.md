@@ -2,6 +2,8 @@
 
 [![Deploy to GitHub pages](https://github.com/vemonet/slides-llm-dev/actions/workflows/deploy.yml/badge.svg)](https://github.com/vemonet/slides-llm-dev/actions/workflows/deploy.yml)
 
+Slides about LLM-assisted software engineering.
+
 [vemonet.github.io/slides-llm-dev](https://vemonet.github.io/slides-llm-dev)
 
 ## 🛠 Slides development
