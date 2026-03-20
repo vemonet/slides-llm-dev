@@ -95,7 +95,7 @@ The [Supabase URL and API key were found](https://www.wiz.io/blog/exposed-moltbo
 
 ---
 
-## Coding agents products
+## Coding agents "harness"
 
 | Agent                 | CLI  | Desktop<br />app | IDE  | Open<br />source | Free<br />tier | Tech        |
 | --------------------- | ---- | ---------------- | ---- | ---------------- | -------------- | ----------- |
